@@ -6,7 +6,8 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h2>Administrar Productos</h2>
+          <h1>Punto de venta</h1>
+          <h2>Administrar Productos</h2>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
