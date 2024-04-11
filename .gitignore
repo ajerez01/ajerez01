@@ -1,0 +1,5 @@
+logs/
+views/dist/
+views/img/
+views/plugins/
+*.env
