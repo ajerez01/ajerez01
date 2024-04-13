@@ -9,6 +9,7 @@
             <h1>Punto de venta</h1>
             <h2>Administrar Productos</h2>
             <h2>Administración</h2>
+            <h2>Cambio 2</h2>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
