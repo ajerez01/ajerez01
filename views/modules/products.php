@@ -270,21 +270,49 @@
                           <input type="number" name="InsProductStock" class="form-control" placeholder="Existencia de Producto">
                       </div>
 
-                      <!--Costo del producto-->
+
                       <div class="input-group mb-3">
-                          <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-folder-plus"></i></span>
+                        <div class="container">
+                          <div class="row">
+
+                            <!--Costo del producto-->
+                            <div class="col-md-6">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fa fa-folder-plus"></i></span>
+                                <input type="number" min=0 name="InsProductCost" class="form-control mr-2" placeholder="Costo de Producto">
+                              </div>
+                              
+                            </div>
+
+                            <div class="col-md-6">
+                              <!--Precio del producto-->
+                              <div class="input-group-prepend mb-0">
+                                <span class="input-group-text"><i class="fa fa-folder-minus"></i></span>
+                                <input type="number" min=0 name="InsProductPrice" class="form-control" placeholder="Precio de Producto">
+                              </div>                             
+
+                              <!--Checkbox Porcentaje-->              
+                              <div class="input-group mb-0 mt-0">
+                                <label for="">
+                                  <input type="checkbox" name="chkporcentaje" id="">
+                                  Utilizar Porcentaje
+                                </label>
+                              </div>
+
+                              <div class="col-xs-6">
+                                <div class="input-group">
+                                  <input type="number" class="form-control input-lg Percentage mr-1" min=0 max=40 required>
+                                  <span class="input-group-addon pt-1"><i class="fa fa-percent"></i> </span>
+                                </div>
+                              </div>
+                            </div>
+
                           </div>
-                          <input type="number" min=0 name="InsProductCost" class="form-control" placeholder="Costo de Producto">
+                        
+                        </div>
                       </div>
 
-                      <!--Precio del producto-->
-                      <div class="input-group mb-3">
-                          <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-folder-minus"></i></span>
-                          </div>
-                          <input type="number" min=0 name="InsProductPrice" class="form-control" placeholder="Precio de Producto">
-                      </div>
+
 
                       <!-- Foto -->
                       <div class="input-group mb-3">
